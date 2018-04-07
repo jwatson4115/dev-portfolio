@@ -12,6 +12,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
 import { LeadComponent } from './lead/lead.component';
+import { CurrentProjectsComponent } from './current-projects/current-projects.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { LeadComponent } from './lead/lead.component';
     ExperienceComponent,
     HeaderComponent,
     AboutComponent,
-    LeadComponent
+    LeadComponent,
+    CurrentProjectsComponent
   ],
   imports: [
     BrowserModule
