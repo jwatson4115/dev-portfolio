@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-full-scale-music',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FullScaleMusicComponent implements OnInit {
 
-  constructor() { }
+  constructor(private titleService: Title) { }
 
   ngOnInit() {
+    this.titleService.setTitle("Building A Full-Scale Music Streaming Web Application - James Watson");
   }
 
 }

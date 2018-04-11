@@ -156,21 +156,23 @@ header {
     }
 
     a {
-        display: block;
-        color: $base-color;
-        padding: 10px;
+      display: block;
+      color: $base-color;
+      padding: 10px;
+      cursor: pointer;
 
-        &:hover {
-            color: $base-color-hover;
-            text-decoration: none;
-            background: #eee;
-            border-radius: 4px;
-        }
+      &:hover {
+          color: $base-color-hover;
+          text-decoration: none;
+          background: #eee;
+          border-radius: 4px;
+      }
 
-        &:focus {
-            color: $base-color;
-            text-decoration: none;
-        }
+      &:focus {
+          color: $base-color;
+          text-decoration: none;
+      }
+        
     }
 
     &.active {
@@ -339,7 +341,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(/assets/images/lead-bg.jpg);
+    background: url(/assets/images/lead-bg-3.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -445,6 +447,7 @@ footer {
     p {
         color: $text;
         margin: 0;
+        margin-bottom: 15px;
     }
 }
 
@@ -619,7 +622,7 @@ footer {
     -------------------------------
 */
 
-#projects {
+#projects, #current-projects {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
