@@ -15,9 +15,11 @@ import { LeadComponent } from './lead/lead.component';
 import { CurrentProjectsComponent } from './current-projects/current-projects.component';
 import { SlideComponent } from './project-components/slide/slide.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { CombiningMusicComponent } from './project-components/combining-music/combining-music.component';
 
 const appRoutes: Routes = [
   { path: 'projects/slide', component: SlideComponent },
+  { path: 'projects/combining-music', component: CombiningMusicComponent },
   { path: '', component: HomepageComponent, pathMatch: 'full' },
 ];
 
@@ -35,7 +37,8 @@ const appRoutes: Routes = [
     LeadComponent,
     CurrentProjectsComponent,
     SlideComponent,
-    HomepageComponent
+    HomepageComponent,
+    CombiningMusicComponent
   ],
   imports: [
     BrowserModule,
