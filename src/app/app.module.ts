@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -13,7 +13,13 @@ import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
 import { LeadComponent } from './lead/lead.component';
 import { CurrentProjectsComponent } from './current-projects/current-projects.component';
+import { SlideComponent } from './project-components/slide/slide.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
+const appRoutes: Routes = [
+  { path: 'projects/slide', component: SlideComponent },
+  { path: '', component: HomepageComponent, pathMatch: 'full' },
+];
 
 @NgModule({
   declarations: [
@@ -27,12 +33,17 @@ import { CurrentProjectsComponent } from './current-projects/current-projects.co
     HeaderComponent,
     AboutComponent,
     LeadComponent,
-    CurrentProjectsComponent
+    CurrentProjectsComponent,
+    SlideComponent,
+    HomepageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes),
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
