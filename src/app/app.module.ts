@@ -16,10 +16,14 @@ import { CurrentProjectsComponent } from './current-projects/current-projects.co
 import { SlideComponent } from './project-components/slide/slide.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CombiningMusicComponent } from './project-components/combining-music/combining-music.component';
+import { FullScaleMusicComponent } from './project-components/full-scale-music/full-scale-music.component';
+import { AchillesComponent } from './project-components/achilles/achilles.component';
 
 const appRoutes: Routes = [
   { path: 'projects/slide', component: SlideComponent },
   { path: 'projects/combining-music', component: CombiningMusicComponent },
+  { path: 'projects/full-scale-music', component: FullScaleMusicComponent },
+  { path: 'projects/achilles', component: AchillesComponent },
   { path: '', component: HomepageComponent, pathMatch: 'full' },
 ];
 
@@ -38,7 +42,9 @@ const appRoutes: Routes = [
     CurrentProjectsComponent,
     SlideComponent,
     HomepageComponent,
-    CombiningMusicComponent
+    CombiningMusicComponent,
+    FullScaleMusicComponent,
+    AchillesComponent
   ],
   imports: [
     BrowserModule,
