@@ -1,6 +1,12 @@
-# DevPortfolio
+# James Watson's Developer Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+This repository is the full source code for my personal portfolio. 
+
+Inspired by Ryan Fitzgerald's excellent portfolio template: https://github.com/RyanFitzgerald/devportfolio
+
+The original template has been completely rewritten as an Angular project with routing and custom project pages. 
+
+For details on how to run the project or make modifications for your own needs, see the Angular CLI instructions below. 
 
 ## Development server
 
