@@ -13,6 +13,9 @@ window.onload = function() {
   document.getElementById("current-projects-button").onclick = () => {
     scrollIntoView("current-projects");
   }
+  document.getElementById("current-projects-link").onclick = () => {
+    scrollIntoView("current-projects");
+  }
   document.getElementById("projects-button").onclick = () => {
     scrollIntoView("projects");
   }

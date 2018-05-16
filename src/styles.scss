@@ -644,6 +644,7 @@ footer {
 
 .project-image {
     float: left;
+    cursor: pointer;
 }
 
 .project-info {
@@ -658,6 +659,7 @@ footer {
         font-weight: 300;
         color: $heading;
         margin: 0 0 15px 0;
+        cursor: pointer;
     }
 
     p {
