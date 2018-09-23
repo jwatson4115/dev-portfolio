@@ -2,7 +2,7 @@
 
 This repository is the full source code for my personal portfolio. 
 
-Check out the live website at: http://www.jamesdwatson.co.uk
+Check out the live website at: https://www.jamesdwatson.co.uk
 
 Inspired by Ryan Fitzgerald's excellent portfolio template: https://github.com/RyanFitzgerald/devportfolio
 
