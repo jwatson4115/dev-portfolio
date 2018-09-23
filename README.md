@@ -2,6 +2,8 @@
 
 This repository is the full source code for my personal portfolio. 
 
+Check out the live website at: http://www.jamesdwatson.co.uk
+
 Inspired by Ryan Fitzgerald's excellent portfolio template: https://github.com/RyanFitzgerald/devportfolio
 
 The original template has been completely rewritten as an Angular project with routing and custom project pages. 
